@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Runtime noise
+*.pid
+*.seed
+*.pid.lock
+
+# Temp files
+tmp/
+temp/
+.DS_Store
+
+# Build output (if any future build is added)
+dist/
+build/
