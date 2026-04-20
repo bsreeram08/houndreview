@@ -1,0 +1,17 @@
+{
+  "name": "hound-github-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "@octokit/webhooks": "^13.8.0",
+    "dotenv": "^16.6.1",
+    "hono": "^4.9.8",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
